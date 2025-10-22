@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>IHE Church Attendance Portal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; padding: 20px; background:#f7f7fb; color:#111; }
+      .container { max-width:1000px; margin:0 auto; background:white; padding:20px; border-radius:10px; box-shadow:0 6px 18px rgba(20,20,40,0.08); }
+      header { display:flex; align-items:center; justify-content:space-between; margin-bottom:16px; }
+      h1 { margin:0; font-size:20px; }
+      input, select { padding:8px 10px; margin-right:8px; border-radius:6px; border:1px solid #ddd; }
+      .grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:12px; }
+      .card { padding:12px; border-radius:8px; border:1px solid #eee; background:#fff; }
+      table { width:100%; border-collapse:collapse; }
+      th, td { padding:8px 6px; text-align:left; border-bottom:1px solid #f2f2f2; font-size:14px; }
+      .actions { margin-top:12px; }
+      button { padding:8px 12px; border-radius:6px; border:none; cursor:pointer; background:#2563eb; color:white; }
+      .muted { color:#666; font-size:13px; }
+      @media (max-width:700px) { .grid { grid-template-columns:1fr; } }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>IHE Church Attendance Portal — Option A (JSON)</h1>
+        <div class="muted">Static front-end • Reads data.json</div>
+      </header>
+
+      <div>
+        <input id="search" placeholder="Search by name, role, email, phone..." />
+        <select id="typeFilter">
+          <option value="all">All</option>
+          <option value="workers">Workers</option>
+          <option value="members">Members</option>
+        </select>
+        <input id="dateFilter" type="date" />
+        <button id="exportBtn">Export visible to CSV</button>
+      </div>
+
+      <div class="grid" id="root"></div>
+
+      <div class="actions muted" style="margin-top:16px;">
+        Tip: To update data, edit <code>data.json</code> and reload the page.
+      </div>
+    </div>
+
+    <!-- React + Babel from CDN for simplicity -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <!-- App code -->
+    <script type="text/babel" src="app.js"></script>
+  </body>
+</html>

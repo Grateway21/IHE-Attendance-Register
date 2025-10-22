@@ -1,0 +1,81 @@
+{
+  "workers": [
+    {
+      "id": 1,
+      "name": "Pastor Bisi Bamigbade",
+      "role": "Chairperson",
+      "email": "bisi@example.com",
+      "attendanceDates": [
+        "2025-10-05",
+        "2025-10-12"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "John Doe",
+      "role": "Usher",
+      "email": "john@example.com",
+      "attendanceDates": [
+        "2025-10-12"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Jane Smith",
+      "role": "Music Director",
+      "email": "jane@example.com",
+      "attendanceDates": [
+        "2025-10-05",
+        "2025-10-12",
+        "2025-10-19"
+      ]
+    }
+  ],
+  "members": [
+    {
+      "id": 101,
+      "name": "Mary Johnson",
+      "phone": "+447700000001",
+      "email": "mary@example.com",
+      "attendanceDates": [
+        "2025-10-12"
+      ]
+    },
+    {
+      "id": 102,
+      "name": "Samuel Green",
+      "phone": "+447700000002",
+      "email": "samuel@example.com",
+      "attendanceDates": [
+        "2025-10-05",
+        "2025-10-12"
+      ]
+    },
+    {
+      "id": 103,
+      "name": "Grace Lee",
+      "phone": "+447700000003",
+      "email": "grace@example.com",
+      "attendanceDates": []
+    },
+    {
+      "id": 104,
+      "name": "Michael Brown",
+      "phone": "+447700000004",
+      "email": "michael@example.com",
+      "attendanceDates": [
+        "2025-10-19"
+      ]
+    },
+    {
+      "id": 105,
+      "name": "Angela Martin",
+      "phone": "+447700000005",
+      "email": "angela@example.com",
+      "attendanceDates": [
+        "2025-10-05",
+        "2025-10-19"
+      ]
+    }
+  ]
+}
