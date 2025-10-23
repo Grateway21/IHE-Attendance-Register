@@ -1,81 +1,54 @@
 {
   "workers": [
-    {
-      "id": 1,
-      "name": "Pastor Bisi Bamigbade",
-      "role": "Chairperson",
-      "email": "bisi@example.com",
-      "attendanceDates": [
-        "2025-10-05",
-        "2025-10-12"
-      ]
-    },
-    {
-      "id": 2,
-      "name": "John Doe",
-      "role": "Usher",
-      "email": "john@example.com",
-      "attendanceDates": [
-        "2025-10-12"
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Jane Smith",
-      "role": "Music Director",
-      "email": "jane@example.com",
-      "attendanceDates": [
-        "2025-10-05",
-        "2025-10-12",
-        "2025-10-19"
-      ]
-    }
+    "Pst GB Ajeneye",
+    "Pst Abby Ajeneye",
+    "Pst Muyiwa Adebayo",
+    "Dcn Kayode Oyeniran",
+    "Sis Olaide Oyeniran",
+    "Bro Tobi Obanisola",
+    "Sis Debby Obanisola",
+    "Bro Adewale Adetomi",
+    "Sis Titilayo Adetomi",
+    "Sis Temitope Oduleye",
+    "Sis Uche Ojoko",
+    "Sis Racheal Ajiboso",
+    "Bro Damilare Ajiboso",
+    "Bro Femi Fatuase",
+    "Sis Roseline Fatuase",
+    "Bro Nicholas Elehibiri",
+    "Sis Faith Elehibiri",
+    "Bro Femi Dada",
+    "Sis Simi Dada",
+    "Bro Korede Mustapha",
+    "Sis Kemi Mustapha",
+    "Bro Adeola Adegbesan",
+    "Sis Bukola Adegbesan",
+    "Sis Tobi Akande",
+    "Bro David Akande",
+    "Sis Lilian Omorogbe",
+    "Sis Temmy Makinde"
   ],
   "members": [
-    {
-      "id": 101,
-      "name": "Mary Johnson",
-      "phone": "+447700000001",
-      "email": "mary@example.com",
-      "attendanceDates": [
-        "2025-10-12"
-      ]
-    },
-    {
-      "id": 102,
-      "name": "Samuel Green",
-      "phone": "+447700000002",
-      "email": "samuel@example.com",
-      "attendanceDates": [
-        "2025-10-05",
-        "2025-10-12"
-      ]
-    },
-    {
-      "id": 103,
-      "name": "Grace Lee",
-      "phone": "+447700000003",
-      "email": "grace@example.com",
-      "attendanceDates": []
-    },
-    {
-      "id": 104,
-      "name": "Michael Brown",
-      "phone": "+447700000004",
-      "email": "michael@example.com",
-      "attendanceDates": [
-        "2025-10-19"
-      ]
-    },
-    {
-      "id": 105,
-      "name": "Angela Martin",
-      "phone": "+447700000005",
-      "email": "angela@example.com",
-      "attendanceDates": [
-        "2025-10-05",
-        "2025-10-19"
-      ]
-    }
+    "Bro Adesanmi Haastrup",
+    "Sis Nifemi Haastrup",
+    "Bro Omor Esokun",
+    "Sis Josephine Ehizele",
+    "Bro Monday Ehizele",
+    "Bro Femi Oyeyiola",
+    "Sis Mariah Oyeyiola",
+    "Bro Kennedy Omoruyi",
+    "Sis Christianah Omoruyi",
+    "Dcn Olushola Adio",
+    "Sis Tosin Adio",
+    "Sis Damilola Oyadeyi",
+    "Bro Tosin Amusa",
+    "Sis Adebimpe Amusa",
+    "Bro Kenny Olanipekun",
+    "Sis Bukola Olanipekun",
+    "Bro Juwon Ogunlade",
+    "Sis Abisoye Ogunlade",
+    "Bro Somto Anthony",
+    "Sis Maureen",
+    "Sis Maxine Manjoro"
   ]
 }
